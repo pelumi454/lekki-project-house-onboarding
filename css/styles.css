@@ -15,8 +15,6 @@
   font-size: 28px;
   font-weight: 700;
   color: #074e75;
-  /* position: relative;
-  right: 45px; */
 }
 .navbar-brand:hover {
   color: #000;
@@ -41,19 +39,16 @@
 .bi-list {
   cursor: pointer;
 }
-.hero-section {
-  /* height: calc(100vh - 230px); */
-}
+/* .hero-section {
+  height: calc(100vh - 230px);
+} */
 
 .title {
   font-size: 60px;
   line-height: 80px;
   color: #152440;
-  padding-top: 120px;
-  padding-left: 90px;
-  padding-bottom: 32px;
+  padding-top: 90px;
   font-weight: 600;
-  width: 90%;
 }
 .title-span {
   font-weight: lighter;
@@ -63,10 +58,10 @@
   color: #fff;
   border: none;
   border-radius: 4px;
-  width: 25%;
+  width: 35%;
   height: 55px;
   cursor: pointer;
-  margin-left: 90px;
+  margin-top: 10px;
 }
 .button:hover {
   background-color: #042b41;
@@ -323,7 +318,7 @@ input[type="submit"] {
 
 /* single property */
 .single-property-section {
-  background-color: #eeeeee;
+  background-color: #fcfcfc;
 }
 .single-property-image {
   width: 70%;
@@ -331,10 +326,13 @@ input[type="submit"] {
 .fa-container {
   background-color: #fff;
   display: flex;
-  justify-content: space-evenly;
-  width: 80%;
+  justify-content: space-between;
+  width: 70%;
   margin-top: 60px;
   padding: 20px;
+  color: #000!important;
+  box-shadow: 0px 10px 20px rgb(0 34 70 / 11%);
+
 }
 .safety-module2 {
   overflow: hidden;
@@ -353,5 +351,9 @@ input[type="submit"] {
 }
 .key-features {
   background-color: #fff;
+  box-shadow: 0px 10px 20px rgb(0 34 70 / 11%);
   padding: 40px;
+}
+.carousel {
+  width: 70%!important;
 }
