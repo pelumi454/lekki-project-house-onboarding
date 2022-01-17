@@ -194,21 +194,41 @@ input[type="submit"] {
   -moz-appearance: none;
   appearance: none;
   border-radius: 30px;
-  font-size: 20px;
+  font-size: 14px;
   height: 52px;
   padding-right: 1.5rem !important;
   padding-left: 1.5rem !important;
   margin-right: 2rem;
 }
 .address-form {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 .search-button {
-    width: 180px;
-    height: 52px;
-    background-color: rgb(29, 110, 121);
-    border: none;
-    border-radius: 30px;
-    color: #fff;
+  width: 180px;
+  height: 52px;
+  border: none;
+  border-radius: 30px;
+  color: #fff;
+  background: #f82a7e;
+  background: -webkit-gradient(
+    linear,
+    right top,
+    left top,
+    from(#f82a7e),
+    to(#752a90)
+  );
+  background: -webkit-linear-gradient(right, #f82a7e 0%, #752a90 100%);
+  background: -o-linear-gradient(right, #f82a7e 0%, #752a90 100%);
+  background: linear-gradient(270deg, #f82a7e 0%, #752a90 100%);
+  color: #fff;
+}
+.popular-property-parent-div {
+}
+.popular-prop-text {
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #074e75 !important;
+    font-size: 30px;
+    margin-top: 160px;
 }
