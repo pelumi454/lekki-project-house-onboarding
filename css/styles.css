@@ -32,7 +32,7 @@
   height: calc(100vh - 54px);
 } */
 .title {
-  font-size: 50px;
+  font-size: 60px;
   line-height: 80px;
   color: #152440;
   /* padding-top: 6rem; */
@@ -42,7 +42,7 @@
   font-weight: 600;
 }
 .title-span {
-    font-weight: lighter;
+  font-weight: lighter;
 }
 .button-container {
   display: flex;
@@ -162,4 +162,53 @@ input[type="submit"] {
 }
 .custom-file-upload > input[type="file"] {
   display: none;
+}
+
+/* view property */
+.view-property-hero-section {
+  background-image: linear-gradient(rgba(3, 1, 18, 0.71), rgba(3, 1, 18, 0.71)),
+    url("../img/hero6.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: calc(70vh - 54px);
+}
+.property-header {
+  font-size: 60px;
+  text-align: center;
+  font-weight: 600;
+  color: #fff;
+  padding-top: 120px;
+}
+
+.search-address {
+  width: 33%;
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.5;
+  color: #212529;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border-radius: 30px;
+  font-size: 20px;
+  height: 52px;
+  padding-right: 1.5rem !important;
+  padding-left: 1.5rem !important;
+  margin-right: 2rem;
+}
+.address-form {
+    display: flex;
+    justify-content: center;
+}
+.search-button {
+    width: 180px;
+    height: 52px;
+    background-color: rgb(29, 110, 121);
+    border: none;
+    border-radius: 30px;
+    color: #fff;
 }

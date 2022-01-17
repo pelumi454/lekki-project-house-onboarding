@@ -19,34 +19,36 @@
     <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg default-layout__inner">
-      <div class="container">
-        <a href="./index.html" class="navbar-brand">YourAgent </a>
-        <i
-          class="navbar-toggler bi bi-list"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        ></i>
-        <div
-          class="collapse navbar-collapse justify-content-end"
-          id="navbarNav"
-        >
-          <ul class="navbar-nav d-flex justify-content-end mt-2 mb-lg-0">
-            <li class="navigation__list-item m-2" key="{index}">
-              <a href="{item.path}" class="navigation-link m-2">
-                View Property
-              </a>
-            </li>
-            <li class="navigation__list-item m-2" key="{index}">
-              <a to="{item.path}" class="navigation-link m-2">Listings </a>
-            </li>
-          </ul>
+     <!-- nav section -->
+      <nav class="navbar navbar-expand-lg default-layout__inner">
+        <div class="container" id="nav-container">
+          <a href="#" to="{RouteLinks.home}" class="navbar-brand">YourAgent </a>
+          <i
+            class="navbar-toggler bi bi-list"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          ></i>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav d-flex justify-content-end mt-2 mb-lg-0">
+              <li class="navigation__list-item m-2" key="{index}">
+                <a href="./viewproperty.html" class="navigation-link m-2">
+                  View Property
+                </a>
+              </li>
+              <li class="navigation__list-item m-2" key="{index}">
+                <a href="./addproperty.html" class="navigation-link m-2">Add Property</a>
+              </li>
+            </ul>
+          </div>
         </div>
-      </div>
-    </nav>
+      </nav>
+
     <!-- ADD PROPERTY FORM -->
     <section id="add-property-section">
       <div class="container">
