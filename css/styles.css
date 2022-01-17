@@ -226,9 +226,36 @@ input[type="submit"] {
 .popular-property-parent-div {
 }
 .popular-prop-text {
-    font-weight: 700;
-    text-transform: uppercase;
-    color: #074e75 !important;
-    font-size: 30px;
-    margin-top: 160px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #074e75 !important;
+  font-size: 30px;
+  margin-top: 160px;
+}
+.listings-property-title {
+  text-decoration: none;
+  color: black;
+  font-size: 12px;
+  font-weight: 500;
+}
+.listings-property-title2 {
+  text-decoration: none;
+  color: black;
+  font-size: 10px;
+  font-weight: 500;
+}
+.house-amount {
+  font-size: 16px;
+  color: #074e75;
+}
+.updated-when {
+  font-size: 11px;
+  color: #7D8392;
+}
+.read-more {
+    font-size: 11px;
+}
+.fontawesome {
+    font-size: 9px;
+    margin-right: 10px;
 }
