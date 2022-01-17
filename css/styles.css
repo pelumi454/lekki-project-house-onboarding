@@ -1,5 +1,12 @@
-.navbar {
-  box-shadow: 0px 10px 20px rgba(36, 0, 70, 0.05);
+.form-control:focus {
+  box-shadow: none;
+  border-color: #074e75;
+}
+
+.default-layout__inner {
+  box-shadow: 0px 10px 20px rgb(0 34 70 / 11%);
+  padding: 2rem 0 2rem 0;
+  margin: auto;
 }
 .navbar-logo {
   height: 30px;
@@ -8,6 +15,19 @@
   font-size: 28px;
   font-weight: 700;
   color: #074e75;
+  /* position: relative;
+  right: 45px; */
+}
+.navbar-brand:hover {
+  color: #000;
+}
+.btn-primary {
+  background-color: #074e75 !important;
+  border: none;
+  margin-left: 40px;
+}
+.btn-primary:hover {
+  background-color: #042b41 !important;
 }
 .navigation-link {
   cursor: pointer;
@@ -15,47 +35,41 @@
   color: #074e75;
   font-weight: 500;
 }
+.navigation-link:hover {
+  color: #042b41;
+}
 .bi-list {
   cursor: pointer;
 }
-.hero-section-flex {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: #f2f7ff; */
+.hero-section {
+  /* height: calc(100vh - 230px); */
 }
-/* .hero-session {
-  background-image: linear-gradient(rgba(3, 1, 18, 0.71), rgba(3, 1, 18, 0.71)),
-    url("../img/hero-bg2.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: calc(100vh - 54px);
-} */
+
 .title {
   font-size: 60px;
   line-height: 80px;
   color: #152440;
-  /* padding-top: 6rem; */
-  padding-left: 50px;
-  padding-top: 20px;
+  padding-top: 120px;
+  padding-left: 90px;
   padding-bottom: 32px;
   font-weight: 600;
+  width: 90%;
 }
 .title-span {
   font-weight: lighter;
 }
-.button-container {
-  display: flex;
-  justify-content: center;
-}
 .button {
-  background-color: #fff;
-  color: #000;
+  background-color: #074e75;
+  color: #fff;
   border: none;
   border-radius: 4px;
-  width: 10%;
-  height: 35px;
+  width: 25%;
+  height: 55px;
   cursor: pointer;
+  margin-left: 90px;
+}
+.button:hover {
+  background-color: #042b41;
 }
 
 /* add property section */
@@ -166,12 +180,38 @@ input[type="submit"] {
 
 /* view property */
 .view-property-hero-section {
-  background-image: linear-gradient(rgba(3, 1, 18, 0.71), rgba(3, 1, 18, 0.71)),
-    url("../img/hero6.jpg");
+  background-image: url("https://preview.colorlib.com/theme/stayhome/images/xbg_2.jpg.pagespeed.ic.aszWGAkmQI.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: calc(70vh - 54px);
+  height: calc(100vh - 54px);
+}
+.find-pro-wrapper {
+  padding-top: 190px;
+  width: 400px;
+}
+.find-pro-title {
+  color: #000;
+  font-size: 35px;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+.find-pro-text {
+  color: #000;
+  font-size: 16px;
+  margin-bottom: 40px;
+}
+.find-pro-input-wrapper {
+  border: 1px solid transparent;
+  padding: 0.5rem 0;
+  border-radius: 5px;
+  width: 300px;
+  background: #fff;
+  padding: 10px 30px;
+}
+.find-pro-input {
+  border: none;
+  outline: none;
 }
 .property-header {
   font-size: 60px;
@@ -250,12 +290,68 @@ input[type="submit"] {
 }
 .updated-when {
   font-size: 11px;
-  color: #7D8392;
+  color: #7d8392;
 }
 .read-more {
-    font-size: 11px;
+  font-size: 11px;
 }
 .fontawesome {
-    font-size: 9px;
-    margin-right: 10px;
+  font-size: 15px;
+  color: brown;
+  margin: 5px;
+}
+.fas {
+  position: relative;
+  right: 3px;
+}
+.phone-icon {
+  font-size: 10px;
+}
+.dropdown-toggle {
+  background-color: #074e75!important;
+  border: 1px solid #074e75;
+  color: #fff;
+}
+
+.dropdown-toggle:hover {
+  color: #000!important;
+}
+.dropdown-toggle:focus {
+    box-shadow: none;
+  border-color: #074e75;
+}
+
+/* single property */
+.single-property-section {
+  background-color: #eeeeee;
+}
+.single-property-image {
+  width: 70%;
+}
+.fa-container {
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  width: 80%;
+  margin-top: 60px;
+  padding: 20px;
+}
+.safety-module2 {
+  overflow: hidden;
+  background-color: #d1ecf1;
+  border-color: #bee5eb;
+  color: #0c5460;
+  padding-left: 25px;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  color: #464b4f;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  /* padding-bottom: 20px; */
+  padding: 40px;
+}
+.key-features {
+  background-color: #fff;
+  padding: 40px;
 }

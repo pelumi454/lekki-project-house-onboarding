@@ -21,8 +21,10 @@
   <body>
     <!-- nav section -->
     <nav class="navbar navbar-expand-lg default-layout__inner">
-      <div class="container" id="nav-container">
-        <a href="./index.html" to="{RouteLinks.home}" class="navbar-brand">YourAgent </a>
+      <div class="container py-1" id="nav-container">
+        <a href="./index.html" to="{RouteLinks.home}" class="navbar-brand"
+          >YourAgent
+        </a>
         <i
           class="navbar-toggler bi bi-list"
           data-bs-toggle="collapse"
@@ -32,39 +34,40 @@
           aria-label="Toggle navigation"
         ></i>
         <div
-          class="collapse navbar-collapse justify-content-end"
+          class="collapse navbar-collapse justify-content-end
           id="navbarNav"
         >
           <ul class="navbar-nav d-flex justify-content-end mt-2 mb-lg-0">
-            <li class="navigation__list-item m-2" key="{index}">
-              <a href="./viewproperty.html" class="navigation-link m-2">
+            <li class="navigation__list-item py-1" key="{index}">
+              <a href="./viewproperty.html" class="navigation-link py-1">
                 View Property
               </a>
             </li>
-            <li class="navigation__list-item m-2" key="{index}">
-              <a href="./addproperty.html" class="navigation-link m-2"
-                >Add Property</a
-              >
-            </li>
+            <a href="./addproperty.html">
+              <button class="btn btn-primary">Add Property</button>
+            </a>
           </ul>
         </div>
       </div>
     </nav>
 
     <!-- hero section -->
-    <section class="hero-session">
-      <div class="hero-section-flex">
-        <h1 class="title">
-          We’re
-          <span class="title-span">Reimagining How You</span>
-          Buy, Sell And Rent.
-        </h1>
-        <div>
+    <section class="d-flex justify-content-between align-items-center my-5 container hero-section">
+      <div class="row">
+        <div class="col-md-6 col-lg-6">
+          <h1 class="title">
+            We’re
+            <span class="title-span">Reimagining How You</span>
+            Buy, Sell And Rent.
+          </h1>
+          <a href="./addproperty.html">
+            <button class="button">Add Property</button>
+          </a>
+        </div>
+
+        <div class="col-md-6 col-lg-6">
           <img src="./img/hero4.jpg" alt="" class="hero-img" />
         </div>
-      </div>
-      <div class="button-container">
-        <button class="button">Add Property</button>
       </div>
     </section>
   </body>
